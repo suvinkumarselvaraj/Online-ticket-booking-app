@@ -1,0 +1,49 @@
+* {
+  margin: 0;
+}
+body {
+  color: #fff;
+}
+.header {
+  background-color: black;
+  display: flex;
+  align-items: center;
+  max-width: 100%;
+  max-height: 400px;
+  padding: 20px;
+}
+.header__img {
+  max-width: 300px;
+}
+.header__image {
+  max-height: 100px;
+  max-width: 200px;
+}
+.header__input {
+  width: 40%;
+  margin-left: 20px;
+  height: 30px;
+}
+.header__button {
+  background-color: rgb(248, 68, 100);
+  border-radius: 5px;
+  border: rgb(250, 43, 164);
+  color: white;
+  margin-left: 10px;
+  height: 30px;
+}
+.header__region {
+  margin-left: 120px;
+}
+.header__search__button {
+  height: 35px;
+  background-color: rgb(248, 68, 100);
+  border: rgb(250, 43, 164);
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  color: white;
+}
+#region {
+  height: 30px;
+  margin-left: 150px;
+}
