@@ -39,13 +39,13 @@ function Home() {
                 genre = "Action/Thriller"
                 />
                  <MovieCards 
-                id = {5}
+                id = {6}
                 image = "https://m.media-amazon.com/images/M/MV5BYWFmYWEzMzItOWNjZC00NjExLWFiMzktYWU1NzY5NjdjNzgyXkEyXkFqcGdeQXVyMTI1NDAzMzM0._V1_.jpg"
                 title = "GanguBai"
                  genre = "Biography/Crime/Drama"
                 />
                 <MovieCards 
-                id = {3}
+                id = {7}
                 image = "https://upload.wikimedia.org/wikipedia/en/thumb/6/68/Hridayam.jpg/220px-Hridayam.jpg"
                 title = "Hridayam"
                 genre = "Commercial/Romance"

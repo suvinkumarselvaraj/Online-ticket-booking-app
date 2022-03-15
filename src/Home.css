@@ -8,7 +8,7 @@
 }
 .home__row__1 {
   display: flex;
-  margin-top: 30px;
+  /* margin-top: 30px; */
   margin-bottom: 20px;
   flex-wrap: wrap;
   padding: 15px;
