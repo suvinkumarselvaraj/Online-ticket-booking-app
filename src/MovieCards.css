@@ -5,7 +5,7 @@
   align-items: center;
 }
 .movie__des {
-  width: 250px;
+  width: fit-content;
   border-radius: 5px;
   color: white;
   align-items: center;
@@ -21,10 +21,15 @@
 }
 .movie__text__des {
   background-color: black;
-  width: 200px;
+  width: 100%;
   font-size: 12px;
   padding-top: 5px;
   padding-bottom: 5px;
   border-bottom-left-radius: 5px;
   border-bottom-right-radius: 5px;
+}
+
+.movie__image:hover {
+  width: 250px;
+  height: 300px;
 }

@@ -9,11 +9,11 @@ function Footer() {
   return (
     <div className='footer'>
       <div className='footer__icons'>
-    <FacebookIcon className='footer__icon'/>
-    <InstagramIcon className='footer__icon'/>
-    <YouTubeIcon className='footer__icon'/>
-    <TwitterIcon className='footer__icon'/>
-    <LinkedInIcon className='footer__icon'/>
+    <FacebookIcon className='footer__icon footer__icon1'/>
+    <InstagramIcon className='footer__icon footer__icon2'/>
+    <YouTubeIcon className='footer__icon footer__icon3'/>
+    <TwitterIcon className='footer__icon footer__icon4'/>
+    <LinkedInIcon className='footer__icon footer__icon5'/>
     </div>
     <p>@ All Copyrights reserved 2020-2022</p>
     

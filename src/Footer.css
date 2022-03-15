@@ -12,3 +12,18 @@
   color: white;
   margin-right: 15px;
 }
+.footer__icon1 :hover {
+  color: #4267b2;
+}
+.footer__icon2 :hover {
+  color: #fb3958;
+}
+.footer__icon3:hover {
+  color: #c4302b;
+}
+.footer__icon4:hover {
+  color: #00acee;
+}
+.footer__icon5 :hover {
+  color: #0077b5;
+}
