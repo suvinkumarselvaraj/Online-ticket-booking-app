@@ -9,7 +9,7 @@ function Header() {
         <input type='text' className='header__input' placeholder = "search the movies"></input>
         <button className='header__search__button'>Search</button>
         <div className='header__region'>
-            <select name = "select_region" id = "region">
+            <select className = 'header__select' name = "select_region" id = "region">
                 <option value = "bangalore">Bangalore</option>
                 <option value = "coimbatore">Coimbatore</option>
                 <option value = "chennai">Chennai</option>

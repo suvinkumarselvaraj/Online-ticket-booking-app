@@ -1,0 +1,29 @@
+.movie__cards {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  align-items: center;
+}
+.movie__des {
+  width: 250px;
+  border-radius: 5px;
+  color: white;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+.movie__image {
+  width: 200px;
+  height: 300px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+.movie__text__des {
+  background-color: black;
+  width: 200px;
+  font-size: 12px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
