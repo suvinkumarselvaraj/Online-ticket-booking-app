@@ -3,6 +3,7 @@ import './App.css';
 import Header from './Header';
 import MovieCards from './MovieCards';
 import Home from './Home';
+import Footer from './Footer';
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
 
         <Header></Header>
         <Home />
+        <Footer></Footer>
     </div>
   );
 }
