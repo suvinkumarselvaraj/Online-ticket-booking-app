@@ -12,7 +12,7 @@ function Header() {
         <input type='text' className='header__input' placeholder = "search the movies"></input>
         <button className='header__search__button'>Search</button>
         <div className='header__right'>
-        <Link to = "/header">
+        <Link to = "/">
         <HomeIcon className='header__home__icon' fontSize='large'/>
         </Link>
             <select className = 'header__select' name = "select_region" id = "region">
