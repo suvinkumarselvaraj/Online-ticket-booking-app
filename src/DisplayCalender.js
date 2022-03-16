@@ -6,6 +6,8 @@ function DisplayCalender() {
   const [value,setValue] = useState(new Date());
   function handleChange(value){
     setValue(value);
+    var date = value.toString();
+    console.log(date.substring(0,16));
   }
   return (
     <div className='calendar'>

@@ -3,6 +3,10 @@ import './ValimaiBooking.css';
 import MovieCards from './MovieCards';
 import DisplayCalendar from './DisplayCalender';
 function ValimaiBooking() {
+    
+    function handleClick(event){
+        console.log(event.target.innerHTML);
+    }
   return (
     <div className='valimai'>
         <h2>Book now to watch Valimai in your favorite theatre</h2>
@@ -20,13 +24,21 @@ function ValimaiBooking() {
             </div>
             <div className='valimai__right__info'>
                 <div className='valimai__theatre__info'>
-                    
+                    <label for = "theater_select">Choose a theatre: </label>
+                    <select className = 'theater__select' name = "select_region" id = "region">
+                        <option value = "KG Cinemas">KG Cinemas</option>
+                        <option value = "Ganesh">Ganesh</option>
+                        <option value = "Cine polis">Cine polis</option>
+                    </select>
                 </div>
-                <div className='valimai__calendar'>
+            <div className='valimai__calendar'>
                 <DisplayCalendar/>
-                </div>
+            </div>
                 <div className='valimai__available__time'>
-                    abc
+                    <button className = "timing__button" type = "submit" onClick={handleClick}>10:00 AM</button>
+                    <button className = "timing__button" type = "submit">02:00 PM</button>
+                    <button className = "timing__button" type = "submit">06:30 PM</button>
+                    <button className = "timing__button" type = "submit">10:00 PM</button>
                 </div>
             </div>
         </div>
@@ -34,4 +46,4 @@ function ValimaiBooking() {
   )
 }
 
-export default ValimaiBooking
+export default ValimaiBooking       
