@@ -2,12 +2,19 @@ import React,{useState} from 'react'
 import Calendar from 'react-calendar';
 import 'react-calendar/dist/Calendar.css';
 import './DisplayCalender.css';
+import {useStateValue} from './StateProvider';
+
 function DisplayCalender() {
   const [value,setValue] = useState(new Date());
+  const [val, dispatch] = useStateValue();
   function handleChange(value){
     setValue(value);
-    var date = value.toString();
-    console.log(date.substring(0,16));
+    var date__movie = value.toString();
+    console.log(date__movie.substring(0,16));
+    dispatch({
+        type: 'Add__movie__date',
+        date:date__movie
+    })
   }
   return (
     <div className='calendar'>

@@ -7,6 +7,8 @@ import Footer from './Footer';
 import {BrowserRouter as Router, Switch, Route} from "react-router-dom";
 import CallCards from './CallCards';
 import ValimaiBooking from './ValimaiBooking';
+import SelectSeats from './SelectSeats';
+import DisplaySeats from './DisplaySeats';
 
 function App() {
 
@@ -24,6 +26,10 @@ function App() {
           <Route path = "/movies/1/valimai/book_now">
             <Header />
               <ValimaiBooking />
+          </Route>
+          <Route path = "/movies/seats">
+            <Header />
+            <DisplaySeats />
           </Route>
           <Route path = "/">
           <Header></Header>
