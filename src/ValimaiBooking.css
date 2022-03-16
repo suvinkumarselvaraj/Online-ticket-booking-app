@@ -1,0 +1,18 @@
+.valimai {
+  margin-top: 150px;
+}
+.valimai__container {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.valimai__right__info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.valimai__instructions {
+  width: 33%;
+}
