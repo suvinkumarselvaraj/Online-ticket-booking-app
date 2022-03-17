@@ -54,7 +54,7 @@ function ValimaiBooking() {
                 <div className='valimai__theatre__info' onClick={showDiv}>
                     <label for = "theater_select">Choose a theatre: </label>
                     <select className = 'theatre__select' name = "theatre__name" id = "theatre__names" onChange= {registerTheatre} >
-                        <option  value = "none">----</option>    
+                        
                         <option  value = "kgcinemas" >KG Cinemas</option>
                         <option  value = "ganesh" >Ganesh</option>
                         <option  value = "cinepolis">Cine polis</option>

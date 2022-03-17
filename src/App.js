@@ -9,7 +9,7 @@ import CallCards from './CallCards';
 import ValimaiBooking from './ValimaiBooking';
 import SelectSeats from './SelectSeats';
 import DisplaySeats from './DisplaySeats';
-
+import Payment from './Payment';
 function App() {
 
   return (
@@ -30,6 +30,10 @@ function App() {
           <Route path = "/movies/seats">
             <Header />
             <DisplaySeats />
+          </Route>
+          <Route path = "/movies/payment">
+            <Header/>
+            <Payment/>
           </Route>
           <Route path = "/">
           <Header></Header>
