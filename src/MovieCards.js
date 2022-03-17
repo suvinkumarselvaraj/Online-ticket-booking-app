@@ -1,20 +1,20 @@
 import React from 'react'
+import { Link } from 'react-router-dom';
 import './MovieCards.css';
 import {useHistory} from 'react-router-dom';
 function MovieCards({id,image,title,genre}) {
   const navigate = useHistory();
-  function handleClick(event){
-      const id = event.target.id;
-      var name = event.target.name;
-      name = name.replace(/ +/g,"");
-      console.log(name.toLowerCase());
-      navigate.push("/movies/"+name+"/"+id);  
-  }
+ 
+      const idTracker = id;
+      var name =title;
+      name = name.replace(/ +/g,"").toLowerCase();
+  
+  
   return (
     <div className='movie__cards'>
         <div className='movie__des'>
-            <img name = {title} id = {id} className='movie__image' src = {image} alt = "" onClick={handleClick}>
-            </img>
+           <Link to ={"/"+name+"/"+id}> <img name = {title} id = {id} className='movie__image' src = {image} alt = "">
+            </img></Link>
             <section className='movie__text__des'>
             <h3>{title}</h3>
             <p>{genre}</p>

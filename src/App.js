@@ -40,7 +40,6 @@ function App() {
           <Home />
           <Footer></Footer>
           </Route>
-
           </Switch>
     </div>
     </Router>
